@@ -44,7 +44,7 @@
                             
 							 
                             <li class="nav-item">
-								<a href="javascript:void(0);" class="btn btn-primary d-sm-inline-block d-none">Report<i class="las la-signal ms-3 scale5"></i></a>
+								<a href="index.html" class="btn btn-primary d-sm-inline-block d-none">Logout<i class="las la-signal ms-3 scale5"></i></a>
 							</li>
                         </ul>
                     </div>
@@ -210,6 +210,7 @@
 												<ul class="card-list mt-4">
 													<li><span class="bg-blue circle"></span>Account<span>0</span></li>
 													<li><span class="bg-success circle"></span>Services<span>0</span></li>
+													<li><span class="bg-success circle"></span>Manager<span>0</span></li>
 													 </ul>
 											</div>
 											 
@@ -361,10 +362,39 @@
 						</div>
 					</div>
 					<div class="col-xl-6 col-xxl-7">
-						<div class="card">
-							<div class="card-header d-flex flex-wrap border-0 pb-0">
-								<div class="me-auto mb-sm-0 mb-3">
-									<h4 class="card-title mb-2">Add Manager</h4>
+						 
+				<div class="card">
+					<div class="card-header">
+						<h4 class="card-title">Add manager</h4>
+					</div>
+					<div class="card-body">
+						<div class="basic-form">
+						 
+									 
+							<form class="form" action="" method="post">
+
+								<div class="row">
+									<div class="mb-3 col-md-6">
+										<label class="form-label"> User Name</label>
+										<input type="text" class="form-control" name="username" placeholder="user name">
+									</div>
+									<div class="mb-3 col-md-6">
+										<label class="form-label">Email</label>
+										<input type="email" class="form-control"name="email" placeholder="Email">
+									</div>
+									<div class="mb-3 col-md-6">
+										<label class="form-label">Password</label>
+										<input type="password" class="form-control" name="password" placeholder="Password">
+									</div>
+									 
+								</div>
+								 
+								<button type="submit" class="btn btn-primary" name="submit">Add Manager</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
 									 
 									 
 								</div>
